@@ -8,10 +8,10 @@
 export default {
   data: function () {
     return {
-      message: `Hello ${ name }`
+      message: `Hello ${ this.name }`
     }
   },
-  props: ['name'],
+  props: ['name']
 }
 </script>
 
